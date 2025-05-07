@@ -1,10 +1,18 @@
-import React from 'react'
+import Task1 from './Components/Task1'
+import Child from './Components/Child'
+
 
 function App() {
+  
+
+
+
   return (
-    <div>
-     <h1> checking for updated deploy</h1>
-    </div>
+   <>
+    <Task1/> 
+    <Child/>
+   
+   </>
   )
 }
 
